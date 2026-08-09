@@ -1,2 +1,12 @@
+[project]
+name = "instagram-api"
+version = "1.0.0"
+description = "Instagram reel downloader API"
+dependencies = [
+    "flask",
+    "yt-dlp"
+]
+requires-python = ">=3.9"
+
 [tool.vercel]
 entrypoint = "api.download:app"
