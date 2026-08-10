@@ -7,11 +7,7 @@
   ],
   "routes": [
     {
-      "src": "/api/download",
-      "dest": "/api/index.py"
-    },
-    {
-      "src": "/api/health",
+      "src": "/api/(.*)",
       "dest": "/api/index.py"
     }
   ]
